@@ -1,0 +1,10 @@
+site_name: Tema4
+theme: windmill
+markdown_extensions:
+  - admonition
+nav:
+    - Home: index.md
+    - Manuales:
+      - Dart: manuales/dart.md
+      - Python: manuales/python.md
+    - About: about.md
