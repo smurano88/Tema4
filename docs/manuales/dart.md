@@ -1,76 +1,6 @@
----
-# Informació general del document
-title: Tema 1 - Lenguaje DART
-autor: Sandra Martínez
-lang: es
-page-background: img/background.png
-
-# Portada
-titlepage: true
-titlepage-rule-height: 0
-#titlepage-rule-color: 000000
-titlepage-text-color: 2a5299
-titlepage-background: img/portada.png
-
-
-# Taula de continguts
-toc: true
-toc-own-page: true
-toc-title: Index
-
-# Capçaleres i peus
-header-left: Tema 1 - Lenguaje Dart
-header-right: Curso 2023-2024
-footer-left: IES La Nía
-footer-right: \thepage/\pageref{LastPage}
-
-# Imatges
-float-placement-figure: H
-caption-justification: centering
-
-# Llistats de codi
-listings-no-page-break: true
-listings-disable-line-numbers: false
-
-header-includes:
-  - \usepackage{lastpage}
-    \usepackage{awesomebox}
-    \usepackage{caption}
-    \usepackage{array}
-    \usepackage{tabularx}
-    \usepackage{ragged2e}
-    \usepackage{multirow}
-    \usepackage{xcolor}
-
-  
-pandoc-latex-environment:
-  noteblock: [note]
-  tipblock: [tip]
-  warningblock: [warning]
-  cautionblock: [caution]
-  importantblock: [important]
-
-# marca d'aigua
-# - \usepackage{draftwatermark}
-# - \SetWatermarkText{\includegraphics{./img/logo50water.png}}
-# - \SetWatermarkScale{0.5}
-# - \SetWatermarkAngle{20}
-
-# text en columnes
-# - \usepackage{multicol}
-# - \setlength{\columnseprule}{1pt}
-# - \setlength{\columnsep}{1em}
-
-# per a permetre pandoc dins de blocs Latex
-# - \newcommand{\hideFromPandoc}[1]{#1}
-# - \hideFromPandoc {
-# \let\Begin\begin
-# \let\End\end
----
 
 ![Símbolo representativo de Dart](img/dart.jpeg)
   
-<br>
 
 # Introducción
 
@@ -90,7 +20,8 @@ Dart posee un sistema de tipos seguro que ayuda a prevenir errores en tiempo de 
 * **Mapas:** `Map` para colecciones de pares clave-valor.
 
 
-\importantbox{Importante definir de manera clara y rigurosa cada tipo de dato.}
+!!!danger "Perill!!"
+    Importante tipificar de manera correcta los datos que vamos a utilizar.
 
 
 **Ejemplos:**
@@ -124,7 +55,9 @@ Dart ofrece una amplia gama de operadores para realizar operaciones matemáticas
 * **Lógicos:** `&&`, `||`, `!`
 * **Comparativos:** `==`, `!=`, `<`, `>`, `<=`, `>=`
 
-\warningbox{Cuidado con el orden de prioridad de los operadores.}
+!!!warning "Cuidado!"
+    Cuidado con el orden de prioridad de los operadores.
+
 
 **Ejemplos:**
 
