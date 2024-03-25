@@ -20,7 +20,7 @@ Dart posee un sistema de tipos seguro que ayuda a prevenir errores en tiempo de 
 * **Mapas:** `Map` para colecciones de pares clave-valor.
 
 
-!!!danger "Perill!!"
+!!!danger "Peligro!!"
     Importante tipificar de manera correcta los datos que vamos a utilizar.
 
 
