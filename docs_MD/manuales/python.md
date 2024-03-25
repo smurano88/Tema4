@@ -5,11 +5,11 @@
 
 **Python** es un lenguaje de programación versátil y fácil de aprender, ideal para principiantes. Se caracteriza por su sintaxis clara y legible, similar al lenguaje natural, lo que facilita su comprensión y uso. Este manual te guiará a través de los conceptos básicos de Python, permitiéndote escribir tus propios programas y explorar el mundo de la programación.
 
-# Entorno de desarrollo
+## Entorno de desarrollo
 
 Para comenzar a programar en Python, necesitas un entorno de desarrollo. Puedes usar el intérprete interactivo de Python, disponible en la mayoría de los sistemas operativos, o un IDE (Integrated Development Environment) como PyCharm, Visual Studio Code o Jupyter Notebook.
 
-# Tipos de datos
+## Tipos de datos
 
 En Python, existen diferentes tipos de datos para almacenar información. Los tipos de datos más comunes son:
 
@@ -19,46 +19,46 @@ En Python, existen diferentes tipos de datos para almacenar información. Los ti
 **Colecciones:** listas (`list`), tuplas (`tuple`), diccionarios (`dict`)  
 **Conjuntos:** (`set`).
 
-# Entrada y salida
+## Entrada y salida
 
 Para interactuar con el usuario, Python ofrece funciones para leer y escribir datos. Las funciones más comunes son:
 
->`input()`: lee una línea de texto del usuario.
+>`input()`: lee una línea de texto del usuario.  
 `print()`: imprime texto en la pantalla.
 
-# Condicionales
+## Condicionales
 
 Las estructuras condicionales permiten ejecutar diferentes acciones dependiendo de una condición. Las estructuras condicionales más comunes son:
 
->`if:` ejecuta un bloque de código si la condición se cumple.  
+>`if`: ejecuta un bloque de código si la condición se cumple.  
 `elif`: ejecuta un bloque de código si la condición anterior no se cumple y la actual sí.  
-`else:` ejecuta un bloque de código si ninguna de las condiciones anteriores se cumple.
+`else`: ejecuta un bloque de código si ninguna de las condiciones anteriores se cumple.
 
-# Bucles
+## Bucles
 
 Los bucles permiten ejecutar un bloque de código de forma repetitiva. Los bucles más comunes son:
 
-    for: ejecuta un bloque de código para cada elemento de una secuencia.
-    while: ejecuta un bloque de código mientras una condición se cumpla.
+> `for`: ejecuta un bloque de código para cada elemento de una secuencia.  
+> `while`: ejecuta un bloque de código mientras una condición se cumpla.
 
-# Funciones
+## Funciones
 
 Las funciones son bloques de código reutilizables que encapsulan una tarea específica. Las funciones permiten organizar el código y hacerlo más modular.
 
-# Módulos
+## Módulos
 
 Los módulos son archivos que contienen código Python que puede ser importado y utilizado en otros programas. Los módulos permiten compartir código y reutilizarlo en diferentes proyectos.
 
-# Estructuras de datos más avanzadas
+## Estructuras de datos más avanzadas
 
 Además de las estructuras de datos básicas, Python ofrece estructuras más avanzadas como:
 
-    Listas: son colecciones ordenadas y mutables de datos.
-    Tuplas: son colecciones ordenadas e inmutables de datos.
-    Diccionarios: son colecciones de pares clave-valor.
-    Conjuntos: son colecciones no ordenadas de elementos únicos.
+>**Listas**: son colecciones ordenadas y mutables de datos.  
+**Tuplas**: son colecciones ordenadas e inmutables de datos.  
+**Diccionarios**: son colecciones de pares clave-valor.  
+**Conjuntos**: son colecciones no ordenadas de elementos únicos.
 
-# Programación orientada a objetos
+## Programación orientada a objetos
 
 Python es un lenguaje de programación orientado a objetos, lo que significa que permite crear objetos que encapsulan datos y comportamiento. La programación orientada a objetos facilita el desarrollo de programas complejos y modulares.
 
@@ -184,9 +184,9 @@ if resultado:
 
 ## Recursos adicionales:
 
-https://www.freecodecamp.org/espanol/news/python-ejemplos-de-codigo-tutorial-de-programacion-en-python-desde-cero-para-principiantes/
-https://aprendeconalf.es/docencia/python/ejercicios/
-https://www.freecodecamp.org/espanol/news/25-proyectos-en-python-para-principiantes/
+1. https://www.freecodecamp.org/espanol/news/python-ejemplos-de-codigo-tutorial-de-programacion-en-python-desde-cero-para-principiantes/  
+2. https://aprendeconalf.es/docencia/python/ejercicios/  
+3. https://www.freecodecamp.org/espanol/news/25-proyectos-en-python-para-principiantes/
 
 ## Consejos para principiantes:
 

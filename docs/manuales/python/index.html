@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Python - Tema4</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Introducci\u00f3n", url: "#_top", children: [
+              {title: "Entorno de desarrollo", url: "#entorno-de-desarrollo" },
+              {title: "Tipos de datos", url: "#tipos-de-datos" },
+              {title: "Entrada y salida", url: "#entrada-y-salida" },
+              {title: "Condicionales", url: "#condicionales" },
+              {title: "Bucles", url: "#bucles" },
+              {title: "Funciones", url: "#funciones" },
+              {title: "M\u00f3dulos", url: "#modulos" },
+              {title: "Estructuras de datos m\u00e1s avanzadas", url: "#estructuras-de-datos-mas-avanzadas" },
+              {title: "Programaci\u00f3n orientada a objetos", url: "#programacion-orientada-a-objetos" },
+              {title: "Ejemplos de c\u00f3digo de Python", url: "#ejemplos-de-codigo-de-python" },
+              {title: "Recursos adicionales:", url: "#recursos-adicionales" },
+              {title: "Consejos para principiantes:", url: "#consejos-para-principiantes" },
+              {title: "Conclusi\u00f3n", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../dart/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../dart/" class="btn btn-xs btn-link">
+        Dart
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <p><img alt="Símbolo representativo de Python" src="../img/python.png" /></p>
+<h1 id="introduccion">Introducción</h1>
+<p><strong>Python</strong> es un lenguaje de programación versátil y fácil de aprender, ideal para principiantes. Se caracteriza por su sintaxis clara y legible, similar al lenguaje natural, lo que facilita su comprensión y uso. Este manual te guiará a través de los conceptos básicos de Python, permitiéndote escribir tus propios programas y explorar el mundo de la programación.</p>
+<h2 id="entorno-de-desarrollo">Entorno de desarrollo</h2>
+<p>Para comenzar a programar en Python, necesitas un entorno de desarrollo. Puedes usar el intérprete interactivo de Python, disponible en la mayoría de los sistemas operativos, o un IDE (Integrated Development Environment) como PyCharm, Visual Studio Code o Jupyter Notebook.</p>
+<h2 id="tipos-de-datos">Tipos de datos</h2>
+<p>En Python, existen diferentes tipos de datos para almacenar información. Los tipos de datos más comunes son:</p>
+<blockquote>
+<p><strong>Numéricos:</strong> enteros (<code>int</code>), decimales (<code>float</code>) y complejos (<code>complex</code>)<br />
+<strong>Texto:</strong> cadenas de caracteres (<code>str</code>)<br />
+<strong>Booleanos:</strong> <code>True</code> o <code>False</code>.<br />
+<strong>Colecciones:</strong> listas (<code>list</code>), tuplas (<code>tuple</code>), diccionarios (<code>dict</code>)<br />
+<strong>Conjuntos:</strong> (<code>set</code>).</p>
+</blockquote>
+<h2 id="entrada-y-salida">Entrada y salida</h2>
+<p>Para interactuar con el usuario, Python ofrece funciones para leer y escribir datos. Las funciones más comunes son:</p>
+<blockquote>
+<p><code>input()</code>: lee una línea de texto del usuario.<br />
+<code>print()</code>: imprime texto en la pantalla.</p>
+</blockquote>
+<h2 id="condicionales">Condicionales</h2>
+<p>Las estructuras condicionales permiten ejecutar diferentes acciones dependiendo de una condición. Las estructuras condicionales más comunes son:</p>
+<blockquote>
+<p><code>if</code>: ejecuta un bloque de código si la condición se cumple.<br />
+<code>elif</code>: ejecuta un bloque de código si la condición anterior no se cumple y la actual sí.<br />
+<code>else</code>: ejecuta un bloque de código si ninguna de las condiciones anteriores se cumple.</p>
+</blockquote>
+<h2 id="bucles">Bucles</h2>
+<p>Los bucles permiten ejecutar un bloque de código de forma repetitiva. Los bucles más comunes son:</p>
+<blockquote>
+<p><code>for</code>: ejecuta un bloque de código para cada elemento de una secuencia.<br />
+<code>while</code>: ejecuta un bloque de código mientras una condición se cumpla.</p>
+</blockquote>
+<h2 id="funciones">Funciones</h2>
+<p>Las funciones son bloques de código reutilizables que encapsulan una tarea específica. Las funciones permiten organizar el código y hacerlo más modular.</p>
+<h2 id="modulos">Módulos</h2>
+<p>Los módulos son archivos que contienen código Python que puede ser importado y utilizado en otros programas. Los módulos permiten compartir código y reutilizarlo en diferentes proyectos.</p>
+<h2 id="estructuras-de-datos-mas-avanzadas">Estructuras de datos más avanzadas</h2>
+<p>Además de las estructuras de datos básicas, Python ofrece estructuras más avanzadas como:</p>
+<blockquote>
+<p><strong>Listas</strong>: son colecciones ordenadas y mutables de datos.<br />
+<strong>Tuplas</strong>: son colecciones ordenadas e inmutables de datos.<br />
+<strong>Diccionarios</strong>: son colecciones de pares clave-valor.<br />
+<strong>Conjuntos</strong>: son colecciones no ordenadas de elementos únicos.</p>
+</blockquote>
+<h2 id="programacion-orientada-a-objetos">Programación orientada a objetos</h2>
+<p>Python es un lenguaje de programación orientado a objetos, lo que significa que permite crear objetos que encapsulan datos y comportamiento. La programación orientada a objetos facilita el desarrollo de programas complejos y modulares.</p>
+<h2 id="ejemplos-de-codigo-de-python">Ejemplos de código de Python</h2>
+<p><strong>1. Imprimir un mensaje en pantalla:</strong></p>
+<pre><code class="language-Python">
+print(&quot;Hola, mundo!&quot;)
+
+</code></pre>
+<p><strong>2. Calcular la suma de dos números:</strong></p>
+<pre><code class="language-Python">num1 = 10
+num2 = 20
+
+suma = num1 + num2
+
+print(&quot;La suma de&quot;, num1, &quot;y&quot;, num2, &quot;es&quot;, suma)
+</code></pre>
+<p><strong>3. Usar una estructura condicional:</strong></p>
+<pre><code class="language-Python">
+numero = 5
+
+if numero &gt; 0:
+  print(&quot;El número&quot;, numero, &quot;es positivo&quot;)
+else:
+  print(&quot;El número&quot;, numero, &quot;es negativo&quot;)
+
+</code></pre>
+<p><strong>4. Usar un bucle for:</strong></p>
+<pre><code class="language-Python">
+lista_numeros = [1, 2, 3, 4, 5]
+
+for numero in lista_numeros:
+  print(numero)
+
+</code></pre>
+<p><strong>5. Definir una función:</strong></p>
+<pre><code class="language-Python">
+def saludar(nombre):
+  print(&quot;Hola&quot;, nombre, &quot;!&quot;)
+
+saludar(&quot;Ana&quot;)
+</code></pre>
+<p><strong>6. Importar un módulo:</strong></p>
+<pre><code class="language-Python">
+import math
+
+print(math.pi)
+</code></pre>
+<p><strong>7. Crear una clase:</strong></p>
+<pre><code class="language-Python">
+class Persona:
+  def __init__(self, nombre, edad):
+    self.nombre = nombre
+    self.edad = edad
+
+  def saludar(self):
+    print(&quot;Hola, me llamo&quot;, self.nombre)
+
+persona1 = Persona(&quot;Juan&quot;, 30)
+
+persona1.saludar()
+</code></pre>
+<p><strong>8. Leer un archivo:</strong></p>
+<pre><code class="language-Python">
+with open(&quot;archivo.txt&quot;, &quot;r&quot;) as archivo:
+  contenido = archivo.read()
+
+print(contenido)
+</code></pre>
+<p><strong>9. Escribir en un archivo:</strong></p>
+<pre><code class="language-Python">
+with open(&quot;archivo.txt&quot;, &quot;w&quot;) as archivo:
+  archivo.write(&quot;Hola, mundo!&quot;)
+
+</code></pre>
+<p><strong>10.  Usar expresiones regulares:</strong></p>
+<pre><code class="language-Python">
+import re
+
+texto = &quot;Hola, mundo!&quot;
+
+resultado = re.search(&quot;Hola&quot;, texto)
+
+if resultado:
+  print(&quot;La palabra 'Hola' se encuentra en el texto&quot;)
+</code></pre>
+<blockquote>
+<p>Estos son solo algunos ejemplos de código de Python. Puedes encontrar muchos más ejemplos en Internet o en libros de programación.</p>
+</blockquote>
+<h2 id="recursos-adicionales">Recursos adicionales:</h2>
+<ol>
+<li>https://www.freecodecamp.org/espanol/news/python-ejemplos-de-codigo-tutorial-de-programacion-en-python-desde-cero-para-principiantes/  </li>
+<li>https://aprendeconalf.es/docencia/python/ejercicios/  </li>
+<li>https://www.freecodecamp.org/espanol/news/25-proyectos-en-python-para-principiantes/</li>
+</ol>
+<h2 id="consejos-para-principiantes">Consejos para principiantes:</h2>
+<p>Comienza con proyectos sencillos y ve aumentando la dificultad gradualmente.
+No tengas miedo de cometer errores. La mejor forma de aprender es experimentando.
+Busca ayuda en Internet o en foros de programación si te encuentras con dificultades.
+Practica con regularidad para mejorar tus habilidades.</p>
+<h2 id="conclusion">Conclusión</h2>
+<p>Este manual te ha proporcionado una base sólida para comenzar a programar en Python. Con la práctica y la dedicación, podrás desarrollar tus habilidades y convertirte en un programador experto.</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../dart/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../dart/" class="btn btn-xs btn-link">
+        Dart
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

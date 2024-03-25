@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Dart - Tema4</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Introducci\u00f3n", url: "#_top", children: [
+              {title: "Tipos de Datos", url: "#tipos-de-datos" },
+              {title: "Variables", url: "#variables" },
+              {title: "Operadores", url: "#operadores" },
+              {title: "Estructuras de control", url: "#estructuras-de-control" },
+              {title: "Funciones", url: "#funciones" },
+              {title: "Clases y Objetos", url: "#clases-y-objetos" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../python/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../python/" class="btn btn-xs btn-link">
+        Python
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../.." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../.." class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <p><img alt="Símbolo representativo de Dart" src="../img/dart.jpeg" /></p>
+<h1 id="introduccion">Introducción</h1>
+<p><strong>Dart</strong> es un lenguaje de programación versátil y moderno desarrollado por Google que se ejecuta tanto en el navegador web como en el servidor. Es ideal para crear aplicaciones web, aplicaciones móviles multiplataforma con Flutter y backends escalables.</p>
+<p>Este documento te guiará a través de los conceptos básicos de la sintaxis de Dart, proporcionando ejemplos de código y explicaciones sencillas para ayudarte a iniciarte en la programación en este lenguaje.</p>
+<h2 id="tipos-de-datos">Tipos de Datos</h2>
+<p>Dart posee un sistema de tipos seguro que ayuda a prevenir errores en tiempo de ejecución. Algunos de los tipos de datos básicos son:</p>
+<ul>
+<li><strong>Números:</strong> <code>int</code> para enteros y <code>double</code> para decimales.</li>
+<li><strong>Cadenas:</strong> <code>String</code> para secuencias de caracteres.</li>
+<li><strong>Booleanos:</strong> <code>bool</code> para valores <code>true</code> o <code>false</code>.</li>
+<li><strong>Listas:</strong> <code>List</code> para colecciones ordenadas de elementos.</li>
+<li><strong>Mapas:</strong> <code>Map</code> para colecciones de pares clave-valor.</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Peligro!!</p>
+<p>Importante tipificar de manera correcta los datos que vamos a utilizar.</p>
+</div>
+<p><strong>Ejemplos:</strong></p>
+<pre><code class="language-Dart">var numeroEntero = 10; // int
+var numeroDecimal = 3.14; // double
+var nombre = &quot;Bard&quot;; // String
+var esVerdadero = true; // bool
+var listaDeNumeros = [1, 2, 3]; // List&lt;int&gt;
+var mapaDePaises = {&quot;España&quot;: &quot;Madrid&quot;, &quot;Francia&quot;: &quot;París&quot;}; // Map&lt;String, String&gt;
+</code></pre>
+<h2 id="variables">Variables</h2>
+<p>Las variables se utilizan para almacenar datos en la memoria. Para declarar una variable, se indica el tipo de dato seguido del nombre de la variable y un punto y coma:</p>
+<pre><code class="language-Dart">var nombre; // Variable sin inicializar
+var edad = 25; // Variable inicializada
+</code></pre>
+<h2 id="operadores">Operadores</h2>
+<p>Dart ofrece una amplia gama de operadores para realizar operaciones matemáticas, lógicas y comparativas. Algunos ejemplos son:</p>
+<ul>
+<li><strong>Aritméticos:</strong> <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code></li>
+<li><strong>Lógicos:</strong> <code>&amp;&amp;</code>, <code>||</code>, <code>!</code></li>
+<li><strong>Comparativos:</strong> <code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Cuidado!</p>
+<p>Cuidado con el orden de prioridad de los operadores.</p>
+</div>
+<p><strong>Ejemplos:</strong></p>
+<pre><code class="language-Dart">var suma = 10 + 5; // 15
+var diferencia = 10 - 5; // 5
+var producto = 10 * 5; // 50
+var cociente = 10 / 5; // 2.0
+var resto = 10 % 3; // 1
+
+var esMayor = 10 &gt; 5; // true
+var esIgual = 10 == 10; // true
+var esDistinto = 10 != 5; // true
+</code></pre>
+<h2 id="estructuras-de-control">Estructuras de control</h2>
+<p>Las estructuras de control permiten ejecutar diferentes bloques de código según ciertas condiciones. Las más comunes son:</p>
+<ul>
+<li><strong>Sentencias condicionales:</strong> <code>if</code>, <code>else</code>, <code>else if</code></li>
+<li><strong>Bucles:</strong> <code>for</code>, <code>while</code>, <code>do while</code></li>
+</ul>
+<p><strong>Ejemplos:</strong></p>
+<pre><code class="language-Dart">var numero = 10;
+
+if (numero &gt; 0) {
+  print(&quot;El número es positivo&quot;);
+} else {
+  print(&quot;El número es negativo&quot;);
+}
+
+for (var i = 0; i &lt; 5; i++) {
+  print(&quot;Iteración $i&quot;);
+}
+
+var contador = 0;
+while (contador &lt; 5) {
+  print(&quot;Iteración $contador&quot;);
+  contador++;
+}
+</code></pre>
+<h2 id="funciones">Funciones</h2>
+<p>Las funciones son bloques de código reutilizables que pueden recibir parámetros y devolver un valor. Se definen con la palabra clave <code>function</code> seguida del nombre de la función, los parámetros entre paréntesis y el tipo de dato de retorno:</p>
+<pre><code class="language-Dart">void saludar(String nombre) {
+  print(&quot;Hola $nombre!&quot;);
+}
+
+String obtenerNombre() {
+  return &quot;Bard&quot;;
+}
+
+void main() {
+  saludar(&quot;Usuario&quot;);
+  var nombre = obtenerNombre();
+  print(&quot;El nombre es $nombre&quot;);
+}
+</code></pre>
+<h2 id="clases-y-objetos">Clases y Objetos</h2>
+<p>Dart es un lenguaje orientado a objetos, lo que permite crear clases y objetos. Las clases son plantillas para crear objetos con sus propios atributos y métodos.</p>
+<p><strong>Ejemplos:</strong></p>
+<p>```Dart
+class Persona {
+  String nombre;
+  int edad;</p>
+<p>Persona(this.nombre, this.edad);</p>
+<p>void saludar() {
+    print("Hola, mi nombre es $nombre y tengo $edad años");
+  }
+}</p>
+<p>void main() {
+  var persona1 = Persona("Juan", 25);
+  persona1.saludar();
+}
+````</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../python/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../python/" class="btn btn-xs btn-link">
+        Python
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../.." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../.." class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
