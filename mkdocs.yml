@@ -1,6 +1,14 @@
 site_name: Tema4
 theme: windmill
 
+# Nom del lloc
+site_name: SM Web
+
+# Carpeta amb el documents fot
+docs_dir: 'md'
+
+# Carpeta on es generarà el lloc web (mkdocs build)
+site_dir: 'docs'
 markdown_extensions:
   - admonition
 nav:
