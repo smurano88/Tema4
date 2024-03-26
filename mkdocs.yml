@@ -2,7 +2,7 @@ site_name: Tema4
 theme: windmill
 
 # Nom del lloc
-site_name: SM Web
+site_name: MKDOCS Web
 
 # Carpeta amb el documents fot
 docs_dir: 'md'
